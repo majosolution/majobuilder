@@ -1,0 +1,24 @@
+﻿/* Table styles for using divs instead of tables */
+.rTable {
+    display: table;
+}
+
+.rTableRow {
+    display: table-row;
+}
+
+.rTableHeading {
+    display: table-header-group;
+}
+
+.rTableBody {
+    display: table-row-group;
+}
+
+.rTableFoot {
+    display: table-footer-group;
+}
+
+.rTableCell, .rTableHead {
+    display: table-cell;
+}

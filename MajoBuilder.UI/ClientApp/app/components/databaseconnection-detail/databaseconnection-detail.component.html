@@ -1,0 +1,30 @@
+<div *ngIf="databaseConnection != null">
+    <div class="rTable">
+        <div class="rTableBody">
+            <div class="rTableRow">
+                <div class="rTableHead">
+                    DatabaseConnectionId
+                </div>
+                <div class="rTableCell">
+                    <input type="text" value="{{ databaseConnection.databaseConnectionId }}" readonly />
+                </div>
+            </div>
+            <div class="rTableRow">
+                <div class="rTableHead">
+                    DatabaseConnectionName
+                </div>
+                <div class="rTableCell">
+                    <input type="text" value="{{ databaseConnection.databaseConnectionName }}" />
+                </div>
+            </div>
+            <div class="rTableRow">
+                <div class="rTableHead">
+                    DatabaseConnectionString
+                </div>
+                <div class="rTableCell">
+                    <input type="text" value="{{ databaseConnection.databaseConnectionString }}" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

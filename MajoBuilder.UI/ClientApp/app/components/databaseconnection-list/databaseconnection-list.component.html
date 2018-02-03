@@ -1,0 +1,11 @@
+<kendo-grid [data]="databases">
+    <kendo-grid-column title="Actions" width="120">
+        <ng-template kendoGridCellTemplate let-dataItem>
+            <button kendoButton type="button" (click)="buttonClick(dataItem.databaseConnectionId)">Edit</button>
+        </ng-template>
+    </kendo-grid-column>
+    <kendo-grid-column field="databaseConnectionName" title="Database">
+    </kendo-grid-column>
+</kendo-grid>
+<databaseConnectionDetail #databaseConnectionDetail>
+</databaseConnectionDetail>

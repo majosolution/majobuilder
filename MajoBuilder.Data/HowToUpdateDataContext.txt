@@ -1,0 +1,2 @@
+﻿Run the following command from package manager console:
+Scaffold-DbContext "Server=localhost\sql2017;Database=MajoBuilder;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
